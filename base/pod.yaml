@@ -5,6 +5,9 @@ metadata:
   labels:
     app: myapp
 spec:
+  imagePullSecrets:
+    - name: google
   containers:
     - name: deepakgc-gcr-image
       image: gcr.io/production-313223/kustomize-app:1.0.12
+      

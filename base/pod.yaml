@@ -9,5 +9,5 @@ spec:
     - name: google
   containers:
     - name: deepakgc-gcr-image
-      image: gcr.io/production-313223/kustomize-app:1.0.121
+      image: gcr.io/production-313223/kustomize-app:1.0.12
       

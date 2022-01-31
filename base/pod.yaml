@@ -10,4 +10,8 @@ spec:
   containers:
     - name: deepakgc-gcr-image
       image: gcr.io/production-313223/kustomize-app:1.0.12
-      
+      command:
+        - /bin/sh
+        - "-c"
+        - "sleep 60m"
+        

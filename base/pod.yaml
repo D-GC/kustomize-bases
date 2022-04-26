@@ -9,7 +9,7 @@ spec:
 #     - name: google
   containers:
     - name: deepakgc-gcr-image
-      image: gcr.io/production-313223/kustomize-app:1.0.36
+      image: gcr.io/production-313223/kustomize-app:1.10.36
       imagePullPolicy: IfNotPresent
       command:
         - /bin/sh
